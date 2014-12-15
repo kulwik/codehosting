@@ -1,3 +1,3 @@
-function hello(res){
+function Hello(res){
 	res.send(200, "Hello...");
 }
