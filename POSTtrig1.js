@@ -3,7 +3,7 @@ function trig1(request,res, modules){
     //console.log('scope: ' + triggerNestLevel);
     var item = request.body.item;
     item.message = item.message + '*';
-    res.send(200, {item:item});
+    //res.send(200, {item:item});
     /*
     modules.storageRef.table("todoTable").push(
         item,
