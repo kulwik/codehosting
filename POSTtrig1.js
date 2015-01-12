@@ -4,10 +4,11 @@ function trig1(request,res, modules){
     var item = request.body.item;
     item.message = item.message + '*';
     var c = 0;
-    while(1){
+    setInterval(function(){
         c++;
         console.log(' :: ' + c);
-    }
+    }, 50);
+
     //res.send(200, {item:item});
     /*
     modules.storageRef.table("todoTable").push(
