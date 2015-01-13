@@ -3,7 +3,6 @@ function trig1(request,res, modules){
     //console.log('scope: ' + triggerNestLevel);
     var item = request.body.item;
     item.message = item.message + '*';
-    var c = 0;
     
     res.send(200);
     
