@@ -4,7 +4,7 @@ function trig1(request,res, modules){
     var item = request.body.item;
     item.message = item.message + 'x';
     
-    res.send(400);
+    //res.send(400);
     //res.send(200, {item: item});
     
     /*
@@ -14,7 +14,7 @@ function trig1(request,res, modules){
     }, 50);*/
 
     //res.send(200, {item:item});
-    /*
+    
     modules.storageRef.table("todoTable").push(
         item,
         function (itemSnapshot){
@@ -26,7 +26,7 @@ function trig1(request,res, modules){
             res.send(400);
         }
     );
-    */
+    
     //request.body.item.message = request.body.item.message.toUpperCase();
 	
 }
