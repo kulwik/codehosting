@@ -4,7 +4,7 @@ function trig1(request,res, modules){
     var item = request.body.item;
     item.message = item.message + 'x';
     
-    res.send(400);
+    res.send(400, 'wola');
     //res.send(200, {item: item});
     
     /*
