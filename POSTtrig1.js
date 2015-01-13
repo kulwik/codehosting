@@ -4,10 +4,14 @@ function trig1(request,res, modules){
     var item = request.body.item;
     item.message = item.message + '*';
     var c = 0;
+    
+    res.send(200);
+    
+    /*
     setInterval(function(){
         c++;
         console.log(' :: ' + c);
-    }, 50);
+    }, 50);*/
 
     //res.send(200, {item:item});
     /*
