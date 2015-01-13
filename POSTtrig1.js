@@ -2,9 +2,9 @@ function trig1(request,res, modules){
     console.log('Trigger data: ' + JSON.stringify(request.body));
     //console.log('scope: ' + triggerNestLevel);
     var item = request.body.item;
-    item.message = item.message + '*';
+    item.message = item.message + 'x';
     
-    res.send(200);
+    res.send(200, {item: item});
     
     /*
     setInterval(function(){
