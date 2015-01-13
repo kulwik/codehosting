@@ -4,7 +4,7 @@ function trig1(request,res, modules){
     var item = request.body.item;
     item.message = item.message + '*';
     
-    res.send(200);
+    res.send(400,. 'Not in my house');
     
     /*
     setInterval(function(){
