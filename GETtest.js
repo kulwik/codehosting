@@ -5,7 +5,7 @@ function test(res, modules){
     ir.get(
 	function success(itemSnapshot) {
 		// Logs the value of the item
-		console.log(itemSnapshot.val());
+		//console.log(itemSnapshot.val());
 		res.send(200, itemSnapshot.val());
 	}, 
 	function error(data) { 
