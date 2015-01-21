@@ -5,7 +5,7 @@ function trig1(request,res, modules){
     item.message = item.message + 'x';
     
     //res.send(400);
-    res.send(200, {item: item});
+    //res.send(200, {item: item});
     
     /*
     setInterval(function(){
@@ -14,7 +14,7 @@ function trig1(request,res, modules){
     }, 50);*/
 
     //res.send(200, {item:item});
-    /*
+    
     modules.storageRef.table("todoTable").push(
         item,
         function (itemSnapshot){
@@ -25,7 +25,7 @@ function trig1(request,res, modules){
             console.log('error: ' + error);
             res.send(400);
         }
-    );*/
+    );
     
     //request.body.item.message = request.body.item.message.toUpperCase();
 	
