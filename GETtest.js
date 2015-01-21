@@ -1,5 +1,5 @@
 function test(res, modules){
-    console.log("test");
+    console.log("test " + JSON.stingify(modules.storageRef));
     modules.storageRef.table("todoTable").item({ primary: "resttest", secondary: 1378830551 },
     
     function(itemSnapshot) {
