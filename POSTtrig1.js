@@ -1,5 +1,5 @@
 function trig1(request,res, modules){
-    res.send(400);
+    res.send(200);
     
     //console.log('Trigger data: ' + JSON.stringify(request.body));
     //console.log('scope: ' + triggerNestLevel);
